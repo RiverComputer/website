@@ -1,0 +1,186 @@
+/* River Computer — migrated from Cargo, 2026 */
+
+/* Reset */
+*, *::before, *::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+/* Base */
+html {
+  font-size: 10.97px;
+}
+
+body {
+  font-family: "Diatype Variable", "Inter", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+  font-size: 1.2rem;
+  font-weight: 400;
+  line-height: 1.2;
+  letter-spacing: 0em;
+  color: rgba(0, 0, 0, 0.85);
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizelegibility;
+  padding: 3rem;
+}
+
+a {
+  color: rgba(0, 0, 0, 0.85);
+  text-decoration: underline;
+}
+
+a:hover {
+  opacity: 0.7;
+}
+
+a:active {
+  opacity: 0.7;
+}
+
+p {
+  margin: 0;
+}
+
+hr {
+  background: rgba(0, 0, 0, 0.6);
+  border: 0;
+  height: 1px;
+  margin-top: 0.4rem;
+  margin-bottom: 0.5rem;
+}
+
+/* Header */
+.header {
+  text-align: center;
+  margin-bottom: 3rem;
+}
+
+.header h1 {
+  font-family: "Diatype Variable", "Inter", -apple-system, BlinkMacSystemFont, sans-serif;
+  font-weight: 400;
+  font-size: 2rem;
+  line-height: 1;
+  letter-spacing: -0.02em;
+  color: rgba(0, 0, 0, 0.85);
+  margin-bottom: 1.5rem;
+}
+
+.header-cta {
+  font-size: 1.2rem;
+}
+
+/* Column layout */
+.columns {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 4rem;
+}
+
+.column {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.column > a,
+.column > p {
+  display: block;
+}
+
+/* Title pill */
+.title {
+  font-size: 1.2rem;
+  font-weight: 400;
+  line-height: 1.2;
+  display: inline-block;
+  border: 0.1rem solid #95c8de;
+  border-radius: 10rem;
+  padding: 0.5rem 2rem 0.4rem;
+  background: #95c8de;
+}
+
+/* Description text */
+.description {
+  font-size: 1.2rem;
+  font-weight: 400;
+  color: rgba(0, 0, 0, 0.4);
+  font-style: italic;
+  line-height: 1.2;
+  display: block;
+  font-variation-settings: 'slnt' -10;
+}
+
+/* Partnerships */
+.partnerships {
+  color: rgba(0, 109, 47, 0.85);
+}
+
+.partnerships a {
+  color: rgba(0, 109, 47, 0.85);
+  text-decoration: none;
+}
+
+.partnerships a:hover {
+  text-decoration: underline;
+}
+
+/* Dots separator */
+.dots {
+  display: block;
+  color: rgba(0, 0, 0, 0.85);
+  letter-spacing: 0.2em;
+}
+
+/* Spacers */
+.spacer {
+  height: 2.4rem;
+}
+
+.spacer-sm {
+  height: 1.2rem;
+}
+
+/* Icons */
+.icon {
+  display: inline;
+}
+
+/* Footer */
+.footer {
+  margin-top: 4rem;
+}
+
+.footer-columns {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 2rem;
+  margin-top: 1rem;
+}
+
+.footer-col {
+  text-align: left;
+}
+
+/* Mobile */
+@media (max-width: 900px) {
+  .columns {
+    grid-template-columns: 1fr;
+    gap: 3rem;
+  }
+
+  .footer-columns {
+    grid-template-columns: 1fr;
+    gap: 1rem;
+  }
+
+  body {
+    padding: 1.5rem;
+  }
+}
+
+@media (min-width: 901px) and (max-width: 1200px) {
+  .columns {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 3rem;
+  }
+}
