@@ -401,6 +401,74 @@ img {
 }
 
 /* =========================================================
+   Publications & Lectures — chronological list
+   ========================================================= */
+
+.pubs-list {
+  max-width: 80rem;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 10rem 1fr;
+  column-gap: 3rem;
+  row-gap: 1.8rem;
+  padding: 2rem 0 4rem;
+}
+
+.pub-entry {
+  display: contents;
+}
+
+.pub-entry + .pub-entry::before {
+  content: "";
+  grid-column: 1 / -1;
+  border-top: 1px solid rgba(0, 0, 0, 0.08);
+}
+
+.pub-date {
+  color: rgba(0, 0, 0, 0.4);
+  font-style: italic;
+  font-variation-settings: 'slnt' -10;
+  font-size: 1.2rem;
+  padding-top: 0.1rem;
+  white-space: nowrap;
+}
+
+.pub-body {
+  display: flex;
+  flex-direction: column;
+  gap: 0.4rem;
+}
+
+.pub-title {
+  font-size: 1.4rem;
+  line-height: 1.35;
+  color: rgba(0, 0, 0, 0.85);
+}
+
+a.pub-title {
+  text-decoration: underline;
+  text-decoration-thickness: 1px;
+  text-underline-offset: 0.3rem;
+}
+
+a.pub-title:hover {
+  opacity: 1;
+  color: #ff3ea5;
+}
+
+.pub-venue {
+  font-size: 1.15rem;
+  color: rgba(0, 0, 0, 0.5);
+  font-style: italic;
+  font-variation-settings: 'slnt' -10;
+  line-height: 1.35;
+}
+
+.pub-venue em {
+  font-style: italic;
+}
+
+/* =========================================================
    Footer
    ========================================================= */
 
@@ -457,6 +525,16 @@ img {
   .footer-columns {
     grid-template-columns: 1fr;
     gap: 1rem;
+  }
+
+  .pubs-list {
+    grid-template-columns: 1fr;
+    row-gap: 1.4rem;
+  }
+
+  .pub-entry + .pub-entry::before {
+    margin-top: 0.4rem;
+    margin-bottom: 0.4rem;
   }
 }
 
