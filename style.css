@@ -21,7 +21,14 @@ body {
   color: rgba(0, 0, 0, 0.85);
   -webkit-font-smoothing: antialiased;
   text-rendering: optimizelegibility;
-  padding: 3rem;
+  padding: 4rem 4rem 2rem;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+main {
+  flex: 1 0 auto;
 }
 
 a {
@@ -57,21 +64,29 @@ img {
 /* Header */
 .header {
   text-align: center;
-  margin-bottom: 3rem;
+  margin: 4rem auto 7rem;
+  max-width: 72rem;
 }
 
 .header h1 {
   font-family: "Diatype Variable", "Inter", -apple-system, BlinkMacSystemFont, sans-serif;
   font-weight: 400;
-  font-size: 2rem;
-  line-height: 1;
+  font-size: 2.6rem;
+  line-height: 1.15;
   letter-spacing: -0.02em;
   color: rgba(0, 0, 0, 0.85);
-  margin-bottom: 1.5rem;
+  margin-bottom: 2.4rem;
+}
+
+.header h1 b {
+  font-weight: 500;
 }
 
 .header-cta {
   font-size: 1.2rem;
+  color: rgba(0, 0, 0, 0.5);
+  font-style: italic;
+  font-variation-settings: 'slnt' -10;
 }
 
 /* Title pill */
@@ -124,8 +139,10 @@ img {
 
 .projects-grid {
   display: grid;
-  grid-template-columns: repeat(5, 1fr);
-  gap: 2rem;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 4rem 3rem;
+  max-width: 130rem;
+  margin: 0 auto;
 }
 
 .project-card {
@@ -134,7 +151,7 @@ img {
   align-items: flex-start;
   text-decoration: none;
   color: inherit;
-  gap: 1rem;
+  gap: 1.1rem;
 }
 
 .project-card:hover {
@@ -156,7 +173,7 @@ img {
   background: rgba(0, 0, 0, 0.04);
   border: 0.1rem solid rgba(0, 0, 0, 0.08);
   overflow: hidden;
-  margin-bottom: 0.2rem;
+  margin-bottom: 0.4rem;
 }
 
 .project-thumb img {
@@ -220,6 +237,10 @@ img {
   object-fit: cover;
 }
 
+.project-hero.contain img {
+  object-fit: contain;
+}
+
 .project-copy {
   grid-column: 2;
   grid-row: 1;
@@ -241,6 +262,28 @@ img {
 .topic-link:hover {
   opacity: 1;
   color: #ff3ea5;
+}
+
+.endorsement {
+  margin: 1.6rem 0;
+  padding-left: 1.4rem;
+  border-left: 0.2rem solid rgba(0, 0, 0, 0.12);
+  font-style: italic;
+  font-variation-settings: 'slnt' -8;
+  color: rgba(0, 0, 0, 0.7);
+  line-height: 1.45;
+}
+
+.endorsement p {
+  margin-bottom: 0.8rem;
+}
+
+.endorsement cite {
+  display: block;
+  font-style: normal;
+  font-variation-settings: 'slnt' 0;
+  color: rgba(0, 0, 0, 0.5);
+  font-size: 1.1rem;
 }
 
 .project-copy p {
@@ -333,6 +376,23 @@ img {
   font-size: 1.2rem;
 }
 
+/* Fill-the-card variant — images that should fill the resource-card box
+   edge-to-edge with no frame, no margin. Keeps the card sized identically
+   to neighboring cards (1200x630) so the grid stays aligned. */
+.resource-thumb.fill .resource-image {
+  background: transparent;
+  border: none;
+  overflow: hidden;
+}
+
+.resource-thumb.fill .resource-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  opacity: 1;
+  display: block;
+}
+
 .resource-sublabel {
   font-size: 1.1rem;
   color: rgba(0, 0, 0, 0.4);
@@ -345,7 +405,8 @@ img {
    ========================================================= */
 
 .footer {
-  margin-top: 6rem;
+  margin-top: 8rem;
+  flex-shrink: 0;
 }
 
 .footer-columns {
@@ -363,20 +424,22 @@ img {
    Responsive
    ========================================================= */
 
-@media (max-width: 1200px) {
-  .projects-grid {
-    grid-template-columns: repeat(3, 1fr);
-  }
-}
-
 @media (max-width: 900px) {
   body {
-    padding: 1.5rem;
+    padding: 2rem 2rem 1.5rem;
+  }
+
+  .header {
+    margin: 2rem auto 4rem;
+  }
+
+  .header h1 {
+    font-size: 2rem;
   }
 
   .projects-grid {
     grid-template-columns: repeat(2, 1fr);
-    gap: 2rem;
+    gap: 2.4rem 2rem;
   }
 
   .project-layout {
