@@ -393,6 +393,19 @@ img {
   display: block;
 }
 
+/* Inline video resources — preload first frame as poster, play in place. */
+.resource-thumb.video-card .resource-image {
+  background: #000;
+}
+
+.resource-thumb.video-card .resource-image video {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  display: block;
+  background: #000;
+}
+
 .resource-sublabel {
   font-size: 1.1rem;
   color: rgba(0, 0, 0, 0.4);
