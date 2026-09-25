@@ -1,0 +1,13 @@
+{
+  "title": "Broad Data",
+  "subtitle": "Think broad data, not big data.",
+  "svg": "svgs/broad-data.svg",
+  "body": [
+    "The political economy of information tends to treat usefulness as a function of consolidation. The more sources are gathered into larger datasets and abstracted from the contexts in which they were produced, the more potential value they are understood to hold.",
+    "Yet information is always situated. Its meaning, authority, and value depend on the social, cultural, biological, and institutional worlds from which it emerges. This tension echoes the political economy of goods, particularly the concept of commodity fetishism, in which value appears to reside in an object itself as it becomes detached from the relations and conditions that produced it. What would it mean for information to hold value because it maintains its relations to context, rather than through their alienation?",
+    "Broad Data asks what knowledge and information infrastructure might look like if it were designed for pluralism rather than consolidation. We are adapting and expanding the notion of contextual integrity from data privacy theory to explore a deeper relationship between information and context. Can digital information be from somewhere? What would that mean technically, economically, and epistemically?",
+    "Rather than collapsing many forms of knowledge into a single generalized corpus, how might distinct situated worlds remain meaningfully distinct while still becoming legible to one another?",
+    "This points to a core thesis of River Computer: to build infrastructure for epistemic and economic pluralism. The question is not simply how to make diverse contexts structured and accessible, but how to do so without collapsing them into a single consolidated model or representation of the world.",
+    "This has significant implications for how we conceive of intelligence beyond our own nervous systems. The question is not simply how much data we can collect, but how many different worlds our information systems can enable to persist."
+  ]
+}

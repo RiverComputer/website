@@ -1,0 +1,12 @@
+{
+  "title": "Witness Protocols",
+  "subtitle": "Privacy norms for distributed witness.",
+  "svg": "svgs/witness-protocols.svg",
+  "body": [
+    "How can digital public infrastructure become a medium of distributed witness rather than centralized surveillance? Surveillance extracts information from a context; witness substantiates claims while preserving accountability to it.",
+    "At stake is how we participate in producing a shared account of the world. As expertise becomes increasingly industrialized through institutions, platforms, and models, complex questions often benefit from many situated perspectives brought into relation rather than a single authoritative view. A claim is not simply data, but data made consequential for a particular purpose through evidence, validation, and policy. Witness protocols ask how those perspectives can be made legible, evaluated, and combined without erasing the contexts from which they arise.",
+    "River Computer is developing a claims engine that runs on a protocol of witness methods and policies. The aim is to create composable systems through which data can be witnessed and, through that process, authorized into claims. Policies or \u201cgates\u201d can then specify the conditions under which those claims become actionable, triggering programmatic outcomes such as payment remittance, digital certificate issuance, or other forms of institutional recognition.",
+    "The witness protocol also explores how people and agents might credential claims together. Rather than treating machine intelligence as a replacement for human judgment, agents can participate as witnesses alongside people, contributing observations, evidence, or validation to a claim while remaining accountable to the policies and contexts that authorize it. Authority can therefore be peer-based, community-held, machine-derived, externally credentialed, or composed across several forms of witness.",
+    "We are exploring these protocols through impact accounting, participatory guarantee systems, information elicitation, and other settings where context-bound knowledge needs to become legible and actionable without surrendering control over how that knowledge is interpreted or authorized."
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "title": "Institutional Development Kit (IDK)",
+  "subtitle": "A framework to describe and grow collective ecologies",
+  "svg": "svgs/idk.svg",
+  "body": [
+    "Institutions are the codes, rituals, and protocols through which people orchestrate their relationships to one another and the world. Some are explicit, written into laws, contracts, permissions, and software. Others live in ceremonies, habits, norms, records, and ways of gathering. Together they form the largely invisible architecture through which collective life takes shape.",
+    "Software offers a useful way of seeing this architecture. A Software Development Kit provides a vocabulary of interoperable components that can be assembled into more complex systems. The Institutional Development Kit (IDK) applies this compositional lens to collective life, extending Elinor Ostrom\u2019s description of institutions as \u201crules in action\u201d toward codes in action: the many ways values and relationships become embedded in arrangements that persist, interact, and shape what a group can do.",
+    "These codes appear across cultures and technologies in different forms, but with recurring functions. Groups gather and establish trust. They form identities and roles, sense and interpret their surroundings, make commitments, allocate resources, and act together. The IDK organizes these patterns through the broader themes of constitution, sensing, and enactment: how a collective forms a sense of itself, encounters the world around it, and turns that understanding into action.",
+    "Seen this way, the IDK works in two directions. Descriptively, it offers a kind of governance ethnography: a way of comparing how communities compose collective life without reducing them to a single model. But a vocabulary of composition also opens a generative possibility. If institutions can be understood through the rituals and protocols from which they are assembled, those elements can become a shared design space for composing new forms suited to particular places, cultures, technologies, and relationships with the more-than-human world.",
+    "What might become possible when we learn to read institutions as compositions, and begin experimenting with the codes through which collective life takes form?"
+  ]
+}

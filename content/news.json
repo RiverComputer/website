@@ -1,0 +1,30 @@
+{
+  "type": "news",
+  "title": "News",
+  "entries": [
+    {
+      "date": "Dec 2025",
+      "title": "River Computer Salon",
+      "location": "The Fold, San Francisco"
+    },
+    {
+      "date": "Jun 2025",
+      "title": "Protocols of Interdependence",
+      "location": "Blockchain @ University of British Columbia"
+    },
+    {
+      "date": "May 2025",
+      "title": "“Living Covenants in Theory and Practice”",
+      "location": "Cascadia Bioregional Summit"
+    },
+    {
+      "date": "May 2025",
+      "title": "A Short Introduction to Feral Technology"
+    },
+    {
+      "date": "Feb 2025",
+      "title": "Introducing the Claims Engine",
+      "location": "United Nations Innovation Partnership Forum"
+    }
+  ]
+}

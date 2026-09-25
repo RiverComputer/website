@@ -1,0 +1,11 @@
+{
+  "title": "Pools",
+  "subtitle": "A new primitive for resilience investing",
+  "svg": "svgs/pools.svg",
+  "body": [
+    "Funding the commons and investing in public goods is difficult not because they fail to produce value, but because the positive externalities they create are difficult to appropriate back to the investor. As a result, an enormous category of resilience finance remains underdeveloped. Pools are River Computer\u2019s attempt to develop new economic and technical primitives for investing in common goods and resilience.",
+    "Each Pool has two core parts: an index, which defines and tracks a particular \"proof of ___,\" and a trust, which acts as a repository of value and data tied to that objective. River Computer\u2019s claims engine and witness methods validate and credential claims against the index, allowing them to drive programmable payments, certificate issuance, or other institutional actions.",
+    "A Pool therefore works like a sovereign covenant linking resources to witnessed change in the world. Spin up a Pool to create an incentive structure around something you care about: remediating a wetland, reducing wildfire risk across a landscape, improving potholes in a neighborhood, or advancing a particular Sustainable Development Goal. The same pattern can operate across bioregions, municipalities, and sectors while allowing each Pool to define its own evidence, witnesses, policies, and relationship to capital.",
+    "Pools are not another tokenization scheme, crediting system, or funding round. They are intended as prototypical units from which ecological institutions and bioregional financing facilities can be assembled: an evolved form of regenerative finance that couples digital public infrastructure with programmable capital and certificates. In fall 2026, River Computer is prototyping five Pools across geographic and thematic contexts to test how witnessed claims can coordinate incentives, resources, and institutional action."
+  ]
+}

@@ -1,85 +1,62 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" data-theme="dark">
 <head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>River Computer</title>
-  <link rel="icon" href="https://freight.cargo.site/t/original/i/Q2028497371295773050648374186360/rc.ico" sizes="any">
-  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="styles.css">
 </head>
 <body>
+  <div class="layout">
+    <aside class="rail">
+      <header class="rail-header">
+        <h1 class="brand"><a href="/" class="brand-link" id="brand-link">River Computer</a></h1>
+        <p class="description">River Computer develops coordination surfaces between people, living systems, and machines for pluralist resilience.</p>
+      </header>
 
-  <header class="header">
-    <h1><b>River Computer</b> develops coordination surfaces between people, living systems, and machines for pluralist resilience.</h1>
-  </header>
+      <nav class="rail-nav">
+        <a href="content/waka.json" data-page>Waka</a>
+        <a href="content/pools.json" data-page>Pools</a>
+        <a href="content/ecological-institutions.json" data-page>Ecological Institutions</a>
+        <a href="content/idk.json" data-page>Institutional Development Kit</a>
+      </nav>
 
-  <main class="projects-grid">
+      <section class="rail-section">
+        <h2 class="section-label">Research</h2>
+        <ul class="section-links">
+          <li><a href="content/broad-data.json" data-page><span class="link-icon" aria-hidden="true"></span><span class="link-title">Broad Data</span></a></li>
+          <li><a href="content/witness-protocols.json" data-page><span class="link-icon" aria-hidden="true"></span><span class="link-title">Witness Protocols</span></a></li>
+          <li><a href="content/more-than-human-interfaces.json" data-page><span class="link-icon" aria-hidden="true"></span><span class="link-title">More Than Human Interfaces</span></a></li>
+        </ul>
+      </section>
 
-    <a class="project-card" href="waka.html">
-      <div class="project-thumb">
-        <img src="images/waka/hero.png" alt="Waka" onerror="this.style.display='none'">
-      </div>
-      <span class="title">Waka</span>
-      <p class="description">Perceptual system for verified claims about the state of the world</p>
-    </a>
+      <section class="rail-section">
+        <nav class="rail-social">
+          <a href="mailto:hello@rivercomputer.org">Email</a>
+          <a href="https://x.com" target="_blank" rel="noopener noreferrer">X</a>
+          <a href="https://github.com" target="_blank" rel="noopener noreferrer">GitHub</a>
+        </nav>
 
-    <a class="project-card" href="nematode.html">
-      <div class="project-thumb">
-        <img src="images/nematode/hero.png" alt="Nematode LLC" onerror="this.style.display='none'">
-      </div>
-      <span class="title">Nematode LLC</span>
-      <p class="description">A C. elegans connectome as the governance organ of a company</p>
-    </a>
+        <div class="newsletter">
+          <label class="newsletter-label" for="newsletter-email">Newsletter</label>
+          <form class="newsletter-form" id="newsletter-form">
+            <input type="email" id="newsletter-email" name="email" placeholder="you@example.com" required autocomplete="email">
+            <button type="submit" aria-label="Subscribe">→</button>
+          </form>
+        </div>
+      </section>
 
-    <a class="project-card" href="ecological-institutions.html">
-      <div class="project-thumb">
-        <img src="images/ecological-institutions/hero.png" alt="Ecological Institutions" onerror="this.style.display='none'">
-      </div>
-      <span class="title">Ecological Institutions</span>
-      <p class="description">A starter kit and design guide to new institutional life forms</p>
-    </a>
+      <button class="theme-toggle" id="theme-toggle" type="button" aria-label="Toggle light and dark mode">
+        <span class="theme-toggle-label">Mode</span>
+        <span class="theme-toggle-icon" aria-hidden="true">◐</span>
+      </button>
+    </aside>
 
-    <a class="project-card" href="wind-trust.html">
-      <div class="project-thumb">
-        <img src="images/wind-trust/hero.png" alt="Wind Trust" onerror="this.style.display='none'">
-      </div>
-      <span class="title">Wind Trust</span>
-      <p class="description">Trust architecture for wind, climate, and atmospheric commons</p>
-    </a>
+    <div class="content-logo" aria-hidden="true"></div>
+    <main class="content" id="content"></main>
+  </div>
 
-    <a class="project-card" href="idk.html">
-      <div class="project-thumb">
-        <img src="images/idk/hero.jpg" alt="Institutional Development Kit" onerror="this.style.display='none'">
-      </div>
-      <span class="title">IDK</span>
-      <p class="description">Institutional Development Kit &mdash; a facilitation framework for regenerative protocols</p>
-    </a>
-
-    <a class="project-card" href="publications.html">
-      <div class="project-thumb">
-        <img src="images/publications/hero.png" alt="Publications &amp; Lectures" onerror="this.style.display='none'">
-      </div>
-      <span class="title">Publications &amp; Lectures</span>
-      <p class="description">Writing and talks on ecological institutions, coordination, and regenerative design</p>
-    </a>
-
-  </main>
-
-  <footer class="footer">
-    <hr>
-    <div class="footer-columns">
-      <div class="footer-col">2026 &middot; River Computer</div>
-      <div class="footer-col">
-        <span class="icon">&sim;</span> coming soon<br>
-        <span class="icon">&equiv;</span> <a href="mailto:aws@rivercomputer.com">aws@rivercomputer.com</a><br>
-        <span class="icon">&times;</span> @<a href="https://x.com/river_computer" target="_blank">river_computer</a>
-      </div>
-      <div class="footer-col">
-        Privacy<br>
-        Terms
-      </div>
-    </div>
-  </footer>
-
+  <script src="logo.js"></script>
+  <script src="app.js"></script>
 </body>
 </html>

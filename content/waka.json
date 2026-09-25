@@ -1,0 +1,11 @@
+{
+  "title": "Waka",
+  "subtitle": "A vessel for sovereign data, claims, and collective memory",
+  "svg": "svgs/waka.svg",
+  "body": [
+    "A waka is a vessel, a container for carrying people and things across worlds. In <em>The Carrier Bag Theory of Fiction</em>, Ursula Le Guin argues that some of humanity\u2019s most consequential technologies were not weapons or instruments of conquest, but containers: bags, vessels, and other forms for gathering, holding, carrying, and remembering. Waka extends this lineage into digital infrastructure.",
+    "Waka is River Computer\u2019s first prototype for sovereign data anchoring and claims management. It provides a container through which communities can gather observations, evidence, testimony, and records, credential them into claims, and retain authority over the methods and policies through which those claims become valid. Rather than treating data as authoritative on its own, Waka asks who or what witnessed it, according to what method, and for what purpose.",
+    "Built from verifiable credentials, witness methods, and an attestation graph, Waka allows claims to remain connected to their evidence, provenance, witnesses, and context. The choice of underlying protocols also makes these records portable across legal and institutional settings, allowing Waka to be embedded into land contracts, covenants, and other agreements. In this way, secure digital records can become part of the obligations and commitments that bind people to one another and to land.",
+    "Waka is our first prototype for the broader digital infrastructure explored across River Computer: witness protocols, living covenants, ecological institutions, and other systems in which situated knowledge needs to become durable and actionable without being separated from the people and places that give it meaning. What would it mean to design digital systems not simply as databases, but as vessels capable of carrying context, authority, and obligation across worlds?"
+  ]
+}

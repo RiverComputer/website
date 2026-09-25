@@ -1,0 +1,10 @@
+{
+  "type": "team",
+  "title": "Team",
+  "members": [
+    { "name": "Austin Wade Smith", "role": "Founder" }
+  ],
+  "body": [
+    "Austin Wade Smith is an engineer and writer building new alliances between people, ecology, and intelligent machines for a more interdependent and resilient planet. They are the author of Ecological Institutions, which traces how historic and emerging institutions shape the distribution of agency, value, and responsibility across human societies and the more-than-human world. For five years, they served as Executive Director of Regen Foundation, leading systemic investment across an international network of grassroots DAOs. They are now the founder of River Computer, which builds tools so that bioregions, co-ops, and neighborhoods can hold their own data, make their own decisions, and direct their own money."
+  ]
+}
