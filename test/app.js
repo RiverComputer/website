@@ -71,7 +71,6 @@ function renderArticle(page, svgMarkup) {
       </div>
       ${page.quote ? `<blockquote class="page-quote"><p>${page.quote.text}</p>${page.quote.cite ? `<cite>${page.quote.cite}</cite>` : ''}</blockquote>` : ''}
       ${page.footerLinks?.length ? `<hr class="divider">` : ''}
-      ${page.footerLinks?.length ? `<h3 class="section-label">Resources</h3>` : ''}
       ${page.footerLinks?.length ? `<nav class="page-footer-links">${page.footerLinks.map((l) => `<a href="${l.href}"${l.external ? ' target="_blank" rel="noopener noreferrer"' : ''}>${l.label}</a>`).join('')}</nav>` : ''}
     </article>
   `;
