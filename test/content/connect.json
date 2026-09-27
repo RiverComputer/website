@@ -1,0 +1,12 @@
+{
+  "type": "connect",
+  "title": "Connect",
+  "links": [
+    { "label": "Email", "href": "mailto:hello@rivercomputer.org" },
+    { "label": "GitHub", "href": "https://github.com", "external": true },
+    { "label": "X", "href": "https://x.com", "external": true }
+  ],
+  "body": [
+    "Connect with us."
+  ]
+}
