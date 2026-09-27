@@ -391,9 +391,10 @@ article.essay-enter {
 }
 
 .page-quote {
-  margin: 24px 0 0;
-  padding-left: 20px;
-  border-left: 1px solid var(--fg-muted);
+  margin: 32px 0 0 24px;
+  padding-left: 24px;
+  border-left: 2px solid var(--fg);
+  font-style: italic;
 }
 
 .page-quote cite {
