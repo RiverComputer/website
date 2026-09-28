@@ -188,14 +188,32 @@ window.addEventListener('popstate', handlePopState);
 
 themeToggle.addEventListener('click', toggleTheme);
 
-newsletterForm.addEventListener('submit', (e) => {
+// Posts to the MailerLite "River Computer Newsletter Signup" embedded form.
+const NEWSLETTER_ENDPOINT = 'https://assets.mailerlite.com/jsonp/2362465/forms/199885811647251869/subscribe';
+
+newsletterForm.addEventListener('submit', async (e) => {
   e.preventDefault();
   const input = document.getElementById('newsletter-email');
+  const body = new FormData();
+  body.append('fields[email]', input.value);
+  body.append('ml-submit', '1');
+  body.append('anticsrf', 'true');
+
+  let message;
+  try {
+    const res = await fetch(NEWSLETTER_ENDPOINT, { method: 'POST', body });
+    const data = await res.json();
+    message = data.success ? 'Thanks — check your inbox to confirm.' : 'Please check that email and try again.';
+  } catch (err) {
+    message = 'Something went wrong — try again.';
+    console.error(err);
+  }
+
   input.value = '';
-  input.placeholder = 'Thanks — you\'re on the list.';
+  input.placeholder = message;
   setTimeout(() => {
     input.placeholder = 'you@example.com';
-  }, 3000);
+  }, 4000);
 });
 
 const backToTop = document.getElementById('back-to-top');
