@@ -1,0 +1,12 @@
+{
+  "type": "connect",
+  "title": "Connect",
+  "links": [
+    { "label": "Email", "href": "mailto:aws@rivercomputer.com" },
+    { "label": "GitHub", "href": "https://github.com/RiverComputer", "external": true },
+    { "label": "X", "href": "https://x.com/river_computer", "external": true }
+  ],
+  "body": [
+    "Connect with us."
+  ]
+}

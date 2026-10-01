@@ -203,7 +203,7 @@ newsletterForm.addEventListener('submit', async (e) => {
   try {
     const res = await fetch(NEWSLETTER_ENDPOINT, { method: 'POST', body });
     const data = await res.json();
-    message = data.success ? 'Thanks — check your inbox to confirm.' : 'Please check that email and try again.';
+    message = data.success ? 'Confirmed.' : 'Please check that email and try again.';
   } catch (err) {
     message = 'Something went wrong — try again.';
     console.error(err);
