@@ -10,6 +10,11 @@
   ],
   "footerLinks": [
     {
+      "label": "Pools Deck (PDF)",
+      "href": "files/river-computer-pools-deck.pdf",
+      "external": true
+    },
+    {
       "label": "Pools Memo",
       "href": "https://internal-frown-ca3.notion.site/River-Computer-Pools-3d81c6b25aae80d0aae0d598e24c64e4",
       "external": true
