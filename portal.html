@@ -4,7 +4,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="robots" content="noindex, nofollow">
-  <title>Portal — River Computer</title>
+  <title>River Computer Lately</title>
   <link rel="stylesheet" href="styles.css?v=6">
   <style>
     /* Portal: a standalone, unlisted page. Borrows the site's tokens and type,
@@ -16,8 +16,15 @@
       padding: var(--rail-pad-top) 28px 56px;
     }
 
+    /* height is fixed on the main site's brand; let the name wrap here */
     .portal .brand {
+      height: auto;
       margin-bottom: 14px;
+    }
+
+    .brand-lately {
+      font-weight: 400;
+      font-style: italic;
     }
 
     .portal-lede {
@@ -124,7 +131,7 @@
 
   <main class="portal">
     <header>
-      <h1 class="brand"><a href="/" class="brand-link">River Computer</a></h1>
+      <h1 class="brand"><a href="/" class="brand-link">River Computer</a> <em class="brand-lately">Lately</em></h1>
       <p class="portal-lede">A short working reference on what is currently at play, kept for collaborators, project partners, and investors.</p>
       <p class="portal-stamp">Updated 3 November 2026</p>
     </header>
